@@ -1,7 +1,7 @@
 
 
 def end_program(NumberText):
-    userChoose = 0
+    userChoose = bool
     while True:
         if userChoose == 0:
             return False

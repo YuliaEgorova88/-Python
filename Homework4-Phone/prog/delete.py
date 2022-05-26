@@ -1,6 +1,6 @@
 from .show import show_employee_list
-# import save
-# import end_program
+import save
+import end_program
 
 
 def delete_employee(employee_list):

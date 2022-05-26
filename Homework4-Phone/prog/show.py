@@ -1,5 +1,5 @@
-# import end_program
-# from input import read_data, load_employees
+import end_program
+import read_data, load_employees
 
 
 def show_employee_list(flag=True):

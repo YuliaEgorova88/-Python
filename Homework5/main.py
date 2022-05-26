@@ -1,1 +1,3 @@
-# Доделать решение задачи про базы данных.
+from Homework5.controller import start
+
+start()
