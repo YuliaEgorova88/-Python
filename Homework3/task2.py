@@ -4,7 +4,7 @@ n = int(input('Задайте натуральное число N: '))
 n1 = n
 res = []
 # numbers = []
-# for i in range (2, int(math.sqrt(n))+1):
+# for i Input_data range (2, int(math.sqrt(n))+1):
 #     while (n1 % i == 0):
 #         numbers.append(i)
 #         n1 //= i

@@ -10,15 +10,15 @@ import math
 # Функция для преобразования точности вида 0.001 => 3
 
 
-def Accuracy(data):
+def accuracy(data):
     i = 0
-    while(1 > data):
+    while 1 > data:
         i += 1
         data = data * 10
     return i
 
 
-def AccuracyPI(precision):
+def accuracyPI(precision):
     return round(math.pi, precision)
 
 
