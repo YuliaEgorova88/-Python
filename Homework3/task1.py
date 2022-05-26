@@ -10,3 +10,8 @@ for i in text:
 print(new_text)
 
 print(['абв' not in x for x in text])
+
+
+# 2
+result = ' '.join(list(filter(lambda word: word.find('абв') == -1, text)))
+print(result)
