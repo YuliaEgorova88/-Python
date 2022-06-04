@@ -1,5 +1,4 @@
 from pytube import YouTube
-from telegram import Update
 import telegram.ext
 from telegram.ext import Updater, ApplicationBuilder, CommandHandler, ContextTypes
 
